@@ -8,13 +8,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
   color: rgba(51,71,91);
-
 }
 
 .container {
-
   width: 80%;
-
   margin: auto;
 }
 
@@ -40,7 +37,11 @@ nav .nav-bar-top {
   line-height: 60px;
 }
 
-i.fa-angle-down {
+.fa-angle-down {
+  font-size: 13px;
+}
+
+.nav-bar-top i.fa-angle-down {
   border-right: 1px solid rgba(137,147,151);
   padding-right: 10%;
 }
@@ -71,4 +72,24 @@ div i.fa-search {
 .nav-bar-top .blocco:last-child {
   width: 4%;
 }
+
+nav .nav-bar-bottom {
+  height:60px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.blocco img {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.nav-bar-bottom .b-right {
+  width: 7%;
+}
 /* /navigation */
+
+/* banner */
+
+
+/* /banner */
