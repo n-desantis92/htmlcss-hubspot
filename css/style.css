@@ -87,9 +87,29 @@ nav .nav-bar-bottom {
 .nav-bar-bottom .b-right {
   width: 7%;
 }
+
 /* /navigation */
 
 /* banner */
+.banner {
+  position: relative;
+  height: 100vh;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 100%;
+}
 
+.title {
+  position: absolute;
+  width: 50%;
+}
 
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-weight:500;
+}
 /* /banner */
