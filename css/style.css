@@ -128,4 +128,16 @@ p {
 small {
   font-weight: 500;
 }
+
+.line-green {
+  height: 78px;
+  width: 100%;
+  color: rgba(51,71,91);
+  background-color: rgb(175,235,228);
+  position: absolute;
+  bottom: 0;
+  border-top: 3px solid rgba(51,71,91);
+  border-bottom: 3px solid rgba(51,71,91);
+
+}
 /* /banner */
