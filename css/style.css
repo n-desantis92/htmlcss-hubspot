@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* general */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(51,71,91);
+
+}
+
+.container {
+
+  width: 80%;
+
+  margin: auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* /general */
+
+/* navigation */
+nav .nav-bar-top {
+  height:60px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.blocco {
+  height: 100%;
+  width: 10%;
+  float: left;
+  text-align: center;
+  line-height: 60px;
+}
+
+i.fa-angle-down {
+  border-right: 1px solid rgba(137,147,151);
+  padding-right: 10%;
+}
+
+.blocco.b-right {
+  float: right;
+}
+
+.button {
+  display: inline;
+  border: 1px solid #ff7a59;
+  border-radius: 5px;
+  padding: 8%;
+  background-color: #ff7a59;
+  color: white;
+}
+
+.button.reverse {
+  background-color: white;
+  color: #ff7a59;
+}
+
+div i.fa-search {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.nav-bar-top .blocco:last-child {
+  width: 4%;
+}
+/* /navigation */
