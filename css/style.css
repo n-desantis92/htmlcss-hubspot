@@ -104,16 +104,17 @@ nav .nav-bar-bottom {
 
 .title {
   position: absolute;
-  width: 50%;
+  width: 40%;
   top: 50px;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   margin-bottom: 2%;
 }
 
 p {
+  font-size: 13px;
   font-weight:500;
   margin-bottom: 2%;
 }
@@ -122,11 +123,12 @@ p {
   display: block;
   width: 25%;
   padding: 2% 3%;
-  font-size: 15px;
+  font-size: 13px;
   margin-bottom: 2%;
 }
 
 small {
+  font-size: 11px;
   font-weight: 500;
 }
 
@@ -139,6 +141,41 @@ small {
   bottom: 0;
   border-top: 3px solid rgba(51,71,91);
   border-bottom: 3px solid rgba(51,71,91);
-
 }
 /* /banner */
+/* main */
+/* main-top */
+.main-top {
+  text-align: center;
+}
+.cubo {
+  width: 20%;
+  margin: auto;
+}
+.cubo > .cubo-img {
+  height: 30vh;
+  background-image: url(../img/Integrations_Illustration@2x.webp);
+  background-repeat: no-repeat;
+  background-size: 95%;
+  background-position: center;
+}
+
+.main-top h2 {
+  margin-bottom: 3%;
+}
+
+.main-top p {
+  margin: auto;
+  width: 72%;
+  font-size: 13px;
+  font-weight:600;
+  margin-bottom: 4%;
+  color: rgb(75,93,111);
+}
+
+.float-left {
+
+}
+/* /main-top */
+
+/* /main */
