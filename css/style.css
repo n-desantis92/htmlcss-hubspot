@@ -24,6 +24,12 @@ body {
 .float-left {
   float: left;
 }
+
+.shadow {
+  -moz-box-shadow:    1px 1px 2px 3px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 1px 1px 2px 3px rgba(0,0,0,0.1);
+  box-shadow:         1px 1px 2px 3px rgba(0,0,0,0.1);
+}
 /* /general */
 
 /* navigation */
@@ -185,11 +191,6 @@ small {
   border-radius: 5px;
 }
 
-.shadow {
-  -moz-box-shadow:    1px 1px 2px 3px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 1px 1px 2px 3px rgba(0,0,0,0.1);
-  box-shadow:         1px 1px 2px 3px rgba(0,0,0,0.1);
-}
 
 .book {
   width: 32%;
@@ -265,7 +266,60 @@ small {
   margin: 1% 1%;
 }
 /* /row-up */
+/* row-down */
+.row-down {
+  margin-top: 3%;
+}
 
+.box {
+  width: calc((100% - 80px) / 3);
+  height: 100%;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+.box-central {
+  margin: 0px 40px;
+}
+
+.box img {
+  width: 35%;
+  margin-top: 10%;
+}
+
+.box h3 {
+  margin-top: 4%;
+  font-size: 1.5em;
+}
+
+.box p {
+  margin-top: 5%;
+}
+
+.box hr {
+  margin-top: 30%;
+}
+
+.box h4 {
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.box ul {
+  list-style-type: none;
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+}
+
+.box .button {
+  display: block;
+  width: 50%;
+  margin: auto;
+  margin-top: 20%;
+  font-size: 80%;
+
+/* /row-down */
 /* /main-top */
 
 /* /main */
