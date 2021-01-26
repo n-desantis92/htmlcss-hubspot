@@ -25,6 +25,9 @@ body {
   float: left;
 }
 
+.float-right {
+  float: right;
+}
 .shadow {
   -moz-box-shadow:    1px 1px 2px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: 1px 1px 2px 3px rgba(0,0,0,0.1);
@@ -322,7 +325,7 @@ small {
 /* /row-down */
 /* /main-top */
 /* main-central-top */
-.main-central-green {
+.main-central {
   height: 100vh;
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
   text-align: center;
@@ -375,4 +378,39 @@ small {
   border-bottom: none;
 }
 /* /main-central-top */
+/* main-bottom */
+.main-white-top {
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  padding-top: 3%;
+}
+
+#numero-importante {
+  font-size: 2.3em;
+  padding-bottom: 3%;
+}
+
+.top-left p {
+  margin-bottom: 1%;
+}
+
+.top-right {
+  height: 90px;
+  width: 60%;
+  padding-top: 2%;
+}
+
+.top-right .table-cell {
+  height: 45px;
+}
+
+.top-right .table-cell img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 6%;
+
+}
+/* /main-bottom */
 /* /main */
