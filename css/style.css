@@ -268,7 +268,7 @@ small {
 /* /row-up */
 /* row-down */
 .row-down {
-  margin-top: 3%;
+  margin: 3% 0;
 }
 
 .box {
@@ -318,8 +318,26 @@ small {
   margin: auto;
   margin-top: 20%;
   font-size: 80%;
-
+}
 /* /row-down */
 /* /main-top */
+/* main-central-top */
+.main-central-green {
+  height: 100vh;
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  text-align: center;
+  color: white;
+}
 
+.main-green h2 {
+  margin: auto;
+  width: 80%;
+  font-size: 1.4em;
+  padding: 5% 0;
+}
+
+.main-grean p {
+  font-weight: 700;
+}
+/* /main-central-top */
 /* /main */
