@@ -446,5 +446,19 @@ small {
   padding-bottom: 10%;
 }
 /* /section-left */
+/* section-right */
+.section-right {
+  position: relative;
+  display: inline-block;
+  width: 49%;
+  height: 60vh;
+}
+
+.section-right img {
+  position: absolute;
+  width: 45%;
+  bottom: 0;
+  right: 0;
+}
 /* /main-bottom */
 /* /main */
