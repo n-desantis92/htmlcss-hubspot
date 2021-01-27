@@ -542,6 +542,9 @@ footer hr {
 
 .footer-left {
   margin-top: 3%;
+}
+
+.footer-left p {
   font-size: 70%;
 }
 
