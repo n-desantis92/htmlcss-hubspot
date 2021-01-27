@@ -515,4 +515,49 @@ color: white;
 .social a {
   color: #0091ae;
 }
+
+.footer-down {
+  width: 100%;
+  height: 100%;
+  color: #0091ae;
+}
+
+.row-languages {
+  width: 50%;
+  margin: auto;
+}
+
+.languages {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  width: calc((100% - 26px) /6);
+  font-size: 70%;
+}
+
+footer hr {
+  margin-top: 1%;
+  border-color: rgba(0, 145, 174, 0.5);
+}
+
+.footer-left {
+  margin-top: 3%;
+  font-size: 70%;
+}
+
+.footer-right {
+  width: 20%;
+  text-align: right;
+  margin-top: 3%;
+  font-size: 70%;
+}
+
+.footer-left img {
+  margin-top: 5%;
+  padding-bottom: 1%;
+}
+
+.footer-right span {
+  padding: 0 3%;
+}
 /* /footer */
